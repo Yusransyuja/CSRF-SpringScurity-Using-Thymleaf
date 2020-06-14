@@ -15,6 +15,7 @@ public class MainController {
 
 	private static Logger logger = LogManager.getLogger(MainController.class);
 	
+	
 	@GetMapping(value="/")
 	public String doStartPage(transactionForm form, HttpServletRequest httpRequest, HttpServletResponse httpResponse) {
 		try {

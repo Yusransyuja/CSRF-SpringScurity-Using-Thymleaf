@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 public class WebSecurityConfig {
 
 	private String doLogin, doLogout, accessDenied;
-
 	
 	public String getAccessDenied() {
 		return accessDenied;
